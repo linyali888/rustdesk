@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["www.325608.com"];
-pub const PUBLIC_RS_PUB_KEY: &str = "2NOfDgh26Ot1Bvv459Fl4LZ+JEyfVVbUsHmLwxnqVgs=";
+pub const PUBLIC_RS_PUB_KEY: &str = "linyali888";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
@@ -2195,7 +2195,7 @@ pub mod keys {
     pub const OPTION_ENABLE_HWCODEC: &str = "enable-hwcodec";
     pub const OPTION_APPROVE_MODE: &str = "approve-mode";
     pub const OPTION_CUSTOM_RENDEZVOUS_SERVER: &str = "custom-rendezvous-server";
-    pub const OPTION_API_SERVER: &str = "api-server";
+    pub const OPTION_API_SERVER: &str = "http://www.325608.com:21114";
     pub const OPTION_KEY: &str = "key";
     pub const OPTION_PRESET_ADDRESS_BOOK_NAME: &str = "preset-address-book-name";
     pub const OPTION_PRESET_ADDRESS_BOOK_TAG: &str = "preset-address-book-tag";
